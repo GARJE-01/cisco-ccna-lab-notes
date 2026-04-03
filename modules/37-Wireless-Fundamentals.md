@@ -363,7 +363,7 @@ Reply from 192.168.22.101 ... TTL=127   ! Cross-VLAN ping works via L3 switch
 ## 🗒️ Key Takeaways
 
 - **Lightweight APs** are Zero Touch — they auto-discover the WLC via DNS and form CAPWAP tunnels. No per-AP configuration needed.
-- APs connect to the switch as **access ports in the management VLAN** — all WLAN traffic is carried inside CAPWAP tunnels back to the WLC.
+- APs connect to the switch as **access ports in the management VLAN** — all WLAN traffic is carried inside CAPWAP tunnels back to the WLC.  
 - The **WLC trunk port** carries management VLAN (native/untagged) plus all WLAN VLANs (tagged).
 - Each WLAN needs its own **logical interface** on the WLC mapping to its VLAN.
 - **Corporate WLAN** uses **WPA2 + 802.1X** (RADIUS) — users authenticate with individual credentials.
