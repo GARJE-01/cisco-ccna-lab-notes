@@ -47,7 +47,33 @@ cd cisco-ccna-lab-notes
 ### 2. Read Online (GitHub)
 GitHub renders Markdown natively — just click any module in the index below and it opens in your browser with full formatting, tables, and code blocks.
 
-### 3. Convert to PDF
+
+### 3. Use in Notion *(Recommended for Active Study)*
+
+These notes were originally created and organised in **Notion** — and that is the best environment to use them if you want to go beyond just reading.
+
+**Why Notion is better for active studying:**
+- ✏️ **Edit freely** — add your own notes, highlight commands, fix typos, add diagrams
+- ✅ **Add checkboxes** — tick off commands and tasks as you complete them in Packet Tracer
+- 🏷️ **Add tags and filters** — mark modules as *Not Started / In Progress / Completed* and filter by status
+- 🔗 **Cross-link modules** — link related topics (e.g. link STP notes to HSRP notes)
+- 📅 **Track your progress** — use Notion's database views (Table, Board, Calendar) to plan your study schedule
+- 💬 **Add comments** — leave questions or reminders on specific sections
+- 📱 **Access anywhere** — Notion works on desktop, mobile and browser — study on the go
+- 🔍 **Full-text search** — instantly find any command, protocol, or concept across all 24 modules
+
+**How to import these notes into Notion:**
+
+1. In Notion, click **Import** from the left sidebar
+2. Choose **Markdown & CSV**
+3. Upload the `.md` files from the `modules/` folder (one at a time or all at once)
+4. Notion will create a page for each module with full formatting preserved
+5. Organise them into a **Database** for filtering, sorting and progress tracking
+
+> 💡 **Pro Tip:** Create a Notion database with columns for **Module Name**, **Status** (Not Started / In Progress / Completed), and **Topic** — then open each module as a page inside that database. This gives you a full study tracker alongside the notes.
+
+
+### 4. Convert to PDF
 For offline reading or printing, use one of these tools:
 - 🌐 **[Dillinger.io](https://dillinger.io)** — paste any `.md` file for instant browser-based PDF export
 - 🖥️ **[Pandoc](https://pandoc.org)** — command line tool for bulk conversion to PDF, EPUB, DOCX
@@ -60,12 +86,12 @@ pandoc modules/04-IOS-Operating-System.md -o Module-04.pdf
 for f in modules/*.md; do pandoc "$f" -o "${f%.md}.pdf"; done
 ```
 
-### 4. Use with Packet Tracer
+### 5. Use with Packet Tracer
 Download the **free lab files** from Neil Anderson's site alongside these notes. Open the `.pkt` file for each module in **Cisco Packet Tracer**, then follow the commands in the corresponding note.
 
 > 🎓 Packet Tracer is free — download it from [Cisco NetAcad](https://www.netacad.com/resources/lab-downloads)
 
-### 5. Study Tips
+### 6. Study Tips
 
 - **Don't just read — type the commands.** Open Packet Tracer alongside each note and configure everything yourself.
 - **Use the Key Takeaways** sections for last-minute revision before the exam.
