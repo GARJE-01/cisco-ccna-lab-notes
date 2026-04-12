@@ -1,0 +1,42 @@
+# Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+
+
+Copyright (c) 2025 Mayur Balasaheb Garje
+
+These notes are personal study materials based on the Cisco CCNA Lab Guide v200-301
+by Neil Anderson (Flackbox). The original lab guide is free and available at:
+https://www.flackbox.com/cisco-ccna-lab-guide
+
+---
+
+## TERMS
+
+**You are free to:**
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
+
+**Under the following terms:**
+- **Attribution** — You must give appropriate credit to both the note author and Neil Anderson (Flackbox) as the original source material author. You must provide a link to the original lab guide and indicate if changes were made.
+- **NonCommercial** — You may not use the material for commercial purposes. You may not sell, monetise or profit from these notes in any way.
+- **No Restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+---
+
+## DISCLAIMER
+
+These notes are provided "as is" without warranty of any kind.
+The author makes no guarantees of accuracy or completeness.
+Always verify configurations in a lab environment before applying them to production networks.
+
+These notes are **NOT** affiliated with, endorsed by, or officially connected to Cisco Systems, Inc. or Neil Anderson / Flackbox in any official capacity.
+Cisco, CCNA, and Cisco Packet Tracer are registered trademarks of Cisco Systems, Inc.
+
+The original lab guide content is the intellectual property of Neil Anderson / Flackbox.
+Visit https://www.flackbox.com to support the original author.
+
+---
+
+Full license text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
